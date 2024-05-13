@@ -1,6 +1,7 @@
-package org.example.service;
+package org.example.service.impl;
 
 import org.example.entity.User;
+import org.example.service.AdminService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

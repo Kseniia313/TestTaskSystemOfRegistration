@@ -1,11 +1,10 @@
-databaseСhangeLog:
-
+databaseChangeLog:
   - include:
       relativeToChangeLogFile: true
-      file:  liquibase/scripts/requests.sql
+      file: scripts/requests.sql
   - include:
       relativeToChangeLogFile: true
-      file: liquibase/scripts/users.sql
+      file: scripts/users.sql
   - include:
       relativeToChangeLogFile: true
-      file: liquibase/scripts/users-add-users.sql
+      file: scripts/users-add-users.sql

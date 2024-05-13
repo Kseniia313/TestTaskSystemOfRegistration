@@ -1,7 +1,13 @@
 package org.example;
 
-public class Main {
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@OpenAPIDefinition
+public class RegistrationService {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        SpringApplication.run(RegistrationService.class, args);
     }
 }

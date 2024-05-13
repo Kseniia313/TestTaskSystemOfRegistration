@@ -1,18 +1,9 @@
-package org.example.entity;
+package org.example.dto;
 
-public enum StatusApplication {
-    DRAFT("DRAFT"),
-    SENT("SENT"),
-    ACCEPTED("ACCEPTED"),
-    REJECTED("REJECTED");
-    private final String statusApp;
-
-    StatusApplication(String statusApp) {
-        this.statusApp = statusApp;
-    }
-
-    public String getStatusApp() {
-        return statusApp;
-    }
+public enum StatusRequest {
+    DRAFT,
+    SENT,
+    ACCEPTED,
+    REJECTED;
 
 }
